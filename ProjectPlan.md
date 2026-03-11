@@ -27,7 +27,7 @@ When both datasets are cleaned and curated, Colin and Reed will work collaborati
 
 #### Dataset 1: 
 
-NBA Draft Data scraped from basketball-reference.com using scrapers found on GitHub by user “kashav” on their page https://github.com/kshvmdn/nbadrafts/tree/master. Uses draft seasons from 2000 to present day. It contains the ranks of all the picks, team with the pick, player selected, and all of the player’s present day stats in the NBA. The player’s rookie year stats will be scraped using their name on basketball-reference.com, and be used in place of their current day stats. This dataset contributes to the research questions by providing the rank of the pick the team had for each season, as well as how big of an impact that rookie had on a team based on their statistics
+NBA Draft Data scraped from (basketball-reference.com)[basketball-reference.com] using scrapers found on GitHub by user “kashav” on their page https://github.com/kshvmdn/nbadrafts/tree/master. Uses draft seasons from 2000 to present day. It contains the ranks of all the picks, team with the pick, player selected, and all of the player’s present day stats in the NBA. The player’s rookie year stats will be scraped using their name on basketball-reference.com, and be used in place of their current day stats. This dataset contributes to the research questions by providing the rank of the pick the team had for each season, as well as how big of an impact that rookie had on a team based on their statistics
 
 #### Dataset 2:
 
