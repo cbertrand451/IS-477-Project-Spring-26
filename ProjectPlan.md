@@ -28,3 +28,32 @@ The season outcomes of the Chicago Bulls from 2000 to present day. The data was 
 
 The key identifiers between these datasets will be the season. The NBA draft dataset will be filtered for Chicago Bulls picks later in the data lifecycle, which will allow us to add season outcomes to the rookie(s) draft pick based on the season they were picked. 
 
+Timeline:
+
+Both Colin and Reed will work on downloading and curating their own dataset. This can be done individually. This will be done by the next interim status report.
+
+- Scrape basketball data from basketball-reference.com
+- Combine each season draft into master draft dataset
+- Filter for Chicago Bulls picks
+- Scrape player data from their rookie year on basketball-reference.com
+- Clean data, derive new columns, drop unnecessary columns
+- Integrate season outcome dataset into Chicago Bulls Draft Picks dataset
+
+April will be time to start analysis using the two datasets. They will be integrated based on season, so that each pick will have the season, rank, and season outcomes. These picks will be used in the linear regression models to find the correlation between draft picks and season outcomes. 
+
+- Integrate datasets based on season
+- Exploratory data analysis
+- Correlations between pick rank and winning percentage
+- Key visualization depicting relationship
+- Linear regression of draft characteristics against team winning percentage
+- Linear regression of draft characteristics against winning percentage differential between adjacent seasons
+- Evaluate the performance of the model compared to the results
+
+We will take notes of results, and try to find any stand out correlations between these variables. These will allow us to create visualizations for the models and the results, which will better display the effects a rookie has on the team. 
+
+- Find correlation between draft pick rank and season outcome
+- Find whether number of games played by the rookie has an effect on season outcome
+- Visualize season outcome vs draft rank with a line plot
+- Visualise season outcome vs games played with line plot
+- Or add on to previous visualisation by showing games played with color/hues
+- Summarize results in report
