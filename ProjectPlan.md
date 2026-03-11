@@ -8,6 +8,12 @@ Colin: In charge of scraping and curating the NBA Draft datasets. The current sc
 
 Reed: In charge of cleaning the Chicago Bulls season-by-season dataset and preparing dataset for further analysis. The data will need to be exported from the source website, and will hold each season dating back to 1967 as an observation. Reed will filter for seasons playing after 1999, and create a new response variable that takes the differential of adjacent seasons’ win percentages.
 
-
 When both datasets are cleaned and curated, Colin and Reed will work collaboratively to analyze the statistics from each season. 
+
+Research or Business Question(s):
+
+- How does a team's draft pick affect the team's season outcome? 
+- Do the number of games played by that rookie affect how well the team does?
+- Did the draft pick improve the win percentage from the previous year?
+
 
