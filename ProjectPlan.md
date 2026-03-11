@@ -16,4 +16,15 @@ Research or Business Question(s):
 - Do the number of games played by that rookie affect how well the team does?
 - Did the draft pick improve the win percentage from the previous year?
 
+Datasets:
+
+Dataset 1: 
+
+NBA Draft Data scraped from basketball-reference.com using scrapers found on GitHub by user “kashav” on their page https://github.com/kshvmdn/nbadrafts/tree/master. Uses draft seasons from 2000 to present day. It contains the ranks of all the picks, team with the pick, player selected, and all of the player’s present day stats in the NBA. The player’s rookie year stats will be scraped using their name on basketball-reference.com, and be used in place of their current day stats. This dataset contributes to the research questions by providing the rank of the pick the team had for each season, as well as how big of an impact that rookie had on a team based on their statistics
+
+Dataset 2:
+
+The season outcomes of the Chicago Bulls from 2000 to present day. The data was exported from basketball-reference.com using the site’s export option. This dataset includes the season, number of wins, losses, and win percentage, along with final season outcomes. 
+
+The key identifiers between these datasets will be the season. The NBA draft dataset will be filtered for Chicago Bulls picks later in the data lifecycle, which will allow us to add season outcomes to the rookie(s) draft pick based on the season they were picked. 
 
