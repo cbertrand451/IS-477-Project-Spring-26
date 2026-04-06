@@ -67,6 +67,7 @@ The key identifiers between these datasets will be the season. The NBA draft dat
 - **Reed**: Create visualisations for linear models, and finalize results from the linear models into a summarized report. 
 - **Reed and Colin**: Create a detailed report of the results, as well as finish the final project submission with the pipeline and analytical results found from the project. Include visualisations and code made/used in the project.
 
+---
 
 ## Constraints
 
