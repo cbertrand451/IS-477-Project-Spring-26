@@ -37,7 +37,11 @@ The key identifiers between these datasets will be the season. The NBA draft dat
 
 ## Timeline
 
-Both Colin and Reed will work on downloading and curating their own dataset. This can be done individually. This will be done by the next interim status report.
+#### April 6 - 10th
+
+- Reed: Download Chicago Bulls Dataset 2 from basketball-reference.com. Make sure dataset is constrained to a "by season" timeline
+- Colin: Scrape NBA Draft Data from basketball-reference.com, using scrapers found on GitHub. Filter the NBA Draft picks for the Chicago Bulls only. Take their name, and use it to scrape the stats from that player's rookie season, also from basketball-reference.com.
+- Reed and Colin: Individually clean seperate datasets, derive new columns, drop unnecessary columns, and prepare datasets to be integrated. Datasets will be conjoined based on players from each season. 
 
 - Scrape basketball data from basketball-reference.com
 - Combine each season draft into master draft dataset
