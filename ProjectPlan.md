@@ -31,9 +31,9 @@ NBA Draft Data scraped from basketball-reference.com using scrapers found on Git
 
 #### Dataset 2:
 
-The season outcomes of the Chicago Bulls from 2000 to present day. The data was exported from basketball-reference.com using the site’s export option. This dataset includes the season, number of wins, losses, and win percentage, along with final season outcomes. 
+The season outcomes of the Chicago Bulls from 2000 to present day. The data was exported from [basketball-reference.com](https://www.basketball-reference.com/teams/CHI/stats_basic_totals.html) using the site’s export option. This dataset includes the season, number of wins, losses, and win percentage, along with final season metrics. The data also holds team results in terms of what place the team finished in their division (out of five teams), where 1st is the top of the division.
 
-The key identifiers between these datasets will be the season. The NBA draft dataset will be filtered for Chicago Bulls picks later in the data lifecycle, which will allow us to add season outcomes to the rookie(s) draft pick based on the season they were picked. 
+The key identifiers between these datasets will be the season. The NBA draft dataset will be filtered for Chicago Bulls picks later in the data lifecycle, which will allow us to add season outcomes to the rookie(s) draft pick based on the season they were picked. Dataset 1 has multiple observations per season, so we will have to merge Dataset 2 using season as a key identifier and pair season metrics with each player based on the yeaer they were drafted. Our cleaned dataset should have duplicate season metric observations if two players were drafted in the same year.
 
 ## Timeline
 
