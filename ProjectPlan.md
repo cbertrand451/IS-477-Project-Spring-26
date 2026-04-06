@@ -39,37 +39,34 @@ The key identifiers between these datasets will be the season. The NBA draft dat
 
 #### April 6 - 10th
 
-- Reed: Download Chicago Bulls Dataset 2 from basketball-reference.com. Make sure dataset is constrained to a "by season" timeline
-- Colin: Scrape NBA Draft Data from basketball-reference.com, using scrapers found on GitHub. Filter the NBA Draft picks for the Chicago Bulls only. Take their name, and use it to scrape the stats from that player's rookie season, also from basketball-reference.com.
-- Reed and Colin: Individually clean seperate datasets, derive new columns, drop unnecessary columns, and prepare datasets to be integrated. Datasets will be conjoined based on players from each season. 
+- **Colin**: Scrape NBA Draft Data from basketball-reference.com, using scrapers found on GitHub. Filter the NBA Draft picks for the Chicago Bulls only. Take their name, and use it to scrape the stats from that player's rookie season, also from basketball-reference.com.
+- **Reed**: Download Chicago Bulls Dataset 2 from basketball-reference.com. Make sure dataset is constrained to a "by season" timeline
+- **Reed and Colin**: Individually clean seperate datasets, derive new columns, drop unnecessary columns, and prepare datasets to be integrated. Datasets will be conjoined based on players from each season. 
 
 ---
 
-- Scrape basketball data from basketball-reference.com
-- Combine each season draft into master draft dataset
-- Filter for Chicago Bulls picks
-- Scrape player data from their rookie year on basketball-reference.com
-- Clean data, derive new columns, drop unnecessary columns
-- Integrate season outcome dataset into Chicago Bulls Draft Picks dataset
+#### April 13 - 17th
 
-April will be time to start analysis using the two datasets. They will be integrated based on season, so that each pick will have the season, rank, and season outcomes. These picks will be used in the linear regression models to find the correlation between draft picks and season outcomes. 
+- **Colin**: Once both datasets are ready, integrate data based on season. There may be multiple players per season, meaning that each individual player will have the correlating season outcome. 
+- **Reed**: Clean joined dataset after integration, checking for any incorrect formatting or bad joining methods
+- **Reed and Colin**: Perform basic exploratory data analysis on initial joined dataset. Colin can focus on NBA draft statistics, like average draft pick number or player analytics, while Reed can focus on season outcome statistics, like how far did the team make it on average, and how many wins the team got that season. 
 
-- Integrate datasets based on season
-- Exploratory data analysis
-- Correlations between pick rank and winning percentage
-- Key visualization depicting relationship
-- Linear regression of draft characteristics against team winning percentage
-- Linear regression of draft characteristics against winning percentage differential between adjacent seasons
-- Evaluate the performance of the model compared to the results
+---
 
-We will take notes of results, and try to find any stand out correlations between these variables. These will allow us to create visualizations for the models and the results, which will better display the effects a rookie has on the team. 
+#### April 20 - 24th
 
-- Find correlation between draft pick rank and season outcome
-- Find whether number of games played by the rookie has an effect on season outcome
-- Visualize season outcome vs draft rank with a line plot
-- Visualise season outcome vs games played with line plot
-- Or add on to previous visualisation by showing games played with color/hues
-- Summarize results in report
+- **Colin**: Find correlations between the rank of the pick for the rookie and the winning percentage of the Chicago Bulls that season. Create a visualisation based on that relationship, likely a heatmap, to showcase how picks affect season outcomes.
+- **Reed**: Create a linear regression model of draft characteristics against team winning percentage, as well as a linear model of draft characteristics against winning percentage differential between adjacent seasons. Evaluate the performance of each model compared to the results.
+- **Reed and Colin**: Take note of results, and find any stand out correlations that may come from the pick/season outcome relationship, the linear models, or both. 
+
+---
+
+#### April 27 - May 1st
+
+- **Colin**: Create additional visualisations based on correlation between pick rank and season outcome. Depending on correlation, visualisation can be line plot, scatter plot, etc. Also analyze whether number of games played by a rookie has an effect on season outcome. This statistics can also be visualised by a plot, either line plot or box plot. 
+- **Reed**: Create visualisations for linear models, and finalize results from the linear models into a summarized report. 
+- **Reed and Colin**: Create a detailed report of the results, as well as finish the final project submission with the pipeline and analytical results found from the project. Include visualisations and code made/used in the project.
+
 
 ## Constraints
 
