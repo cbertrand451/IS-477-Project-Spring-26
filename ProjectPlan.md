@@ -75,5 +75,5 @@ Data was downloaded and exported legally, as long as basketball-reference.com is
 
 ## Gaps
 
-One gap that requires additional input is our approach to answering our research question. This course does not teach any linear regression or machine learning techniques, so we must look elsewhere to not only run our models, but evaluate them and decipher whether these are good fits for our data or not. We are also worried about special characters that may arise that won’t be properly scraped. For example, the name “Jusuf Nurkić” may not be properly scraped. We expect to learn this in IS 477, however it is a current gap in our skills.
+One gap that requires additional input is our approach to answering our research question. This course does not teach any linear regression or machine learning techniques, so we must look elsewhere to not only run our models, but evaluate them and decipher whether these are good fits for our data or not. We are also worried about special characters that may arise that won’t be properly scraped. For example, the name “Jusuf Nurkić” may not be properly scraped. This is a form of **syntactic data problems** that we may face. We expect to learn this in IS 477, however it is a current gap in our skills.
 
