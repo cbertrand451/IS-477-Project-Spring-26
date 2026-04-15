@@ -7,7 +7,7 @@ Reed Haas & Colin Bertrand
 
 ## Project plan changes
 
-Scraping data from basketb-reference.com no longer is feasible. Colin tried multiple scripts from previous users on GitHub, tried public APIs, libraries built specifically for that website, but all actions were blocked with a 403 credential by the site. More research found that basketball-reference.com blocked many attempts to scrape due to bot activity. This forced Colin to manually download data from basketball-reference.com and programatically merge the data together. 
+Scraping data from basketball-reference.com no longer is feasible. Colin tried multiple scripts from previous users on GitHub, tried public APIs, libraries built specifically for that website, but all actions were blocked with a 403 credential by the site. More research found that basketball-reference.com blocked many attempts to scrape due to bot activity. This forced Colin to manually download data from basketball-reference.com and programatically merge the data together. 
 
 ## Challenges
 
