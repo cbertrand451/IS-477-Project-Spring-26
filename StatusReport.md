@@ -1,9 +1,37 @@
-# Chicago Bulls Rookie Evaluation Status Report
-Reed Haas & Colin Bertrand
+# Status Report
+
+### Chicago Bulls NBA Draft Picks vs Season Outcomes
+#### Colin Bertrand and Reed Haas
+
+
 
 ## Task updates
 
+To restate the goal of this project, we want to determine how teams’ draft strategies and behaviors influence team success in their upcoming season. We start by manually downloading two different datasets from basketball-reference.com shown in the data folder of the repository. We plan to integrate these datasets together and run preprocessing, and machine learning analyses on the combined dataset to answer our research questions. We also plan to create new variables that we will treat as the response in linear regression models, which is the difference in win percentage between adjacent teams. To generalize this, we want to see if the team performed better or worse with the introduction of this rookie. We intend to stick to our timeline (as seen below) and complete each task within the given week.
+
 ## Updated timeline
+
+#### April 15 - 17th
+
+- **Colin**: Once both datasets are ready, integrate data based on season. There may be multiple players per season, meaning that each individual player will have the correlating season outcome. 
+- **Reed**: Clean joined dataset after integration, checking for any incorrect formatting or bad joining methods
+- **Reed and Colin**: Perform basic exploratory data analysis on initial joined dataset. Colin can focus on NBA draft statistics, like average draft pick number or player analytics, while Reed can focus on season outcome statistics, like how far did the team make it on average, and how many wins the team got that season. 
+
+---
+
+#### April 20 - 24th
+
+- **Colin**: Find correlations between the rank of the pick for the rookie and the winning percentage of the Chicago Bulls that season. Create a visualisation based on that relationship, likely a heatmap, to showcase how picks affect season outcomes.
+- **Reed**: Create a linear regression model of draft characteristics against team winning percentage, as well as a linear model of draft characteristics against winning percentage differential between adjacent seasons. Evaluate the performance of each model compared to the results.
+- **Reed and Colin**: Take note of results, and find any stand out correlations that may come from the pick/season outcome relationship, the linear models, or both. 
+
+---
+
+#### April 27 - May 1st
+
+- **Colin**: Create additional visualisations based on correlation between pick rank and season outcome. Depending on correlation, visualisation can be line plot, scatter plot, etc. Also analyze whether number of games played by a rookie has an effect on season outcome. This statistics can also be visualised by a plot, either line plot or box plot. 
+- **Reed**: Create visualisations for linear models, and finalize results from the linear models into a summarized report. 
+- **Reed and Colin**: Create a detailed report of the results, as well as finish the final project submission with the pipeline and analytical results found from the project. Include visualisations and code made/used in the project.
 
 ## Project plan changes
 
