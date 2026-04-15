@@ -35,11 +35,15 @@ To restate the goal of this project, we want to determine how teams’ draft str
 
 ## Project plan changes
 
-Scraping data from basketball-reference.com no longer is feasible. Colin tried multiple scripts from previous users on GitHub, tried public APIs, libraries built specifically for that website, but all actions were blocked with a 403 credential by the site. More research found that basketball-reference.com blocked many attempts to scrape due to bot activity. This forced Colin to manually download data from basketball-reference.com and programatically merge the data together. 
+The 2025 season can now be included in this analysis because their season is over as of April 12th, 2026.
+
+We also updated the project plan with the comments that were left to us. We updated the timeline with weekly tasks and shared goals. The constraints and gap sections were updated with relevant course info, as well as talking about additional issues we may run into. We updated the dataset descriptions with howo we will be merging the data, as well. 
 
 ## Challenges
 
-- basketball-reference.com data scraping: site consistently gave 403 status code, meaning access was denied to the site through requests library. 
+Scraping data from basketball-reference.com no longer is feasible. Colin tried multiple scripts from previous users on GitHub, tried public APIs, libraries built specifically for that website, but all actions were blocked with a 403 credential by the site. More research found that basketball-reference.com blocked many attempts to scrape due to bot activity. This forced Colin to manually download data from basketball-reference.com and programatically merge the data together. 
+
+The rookie year data also had to be added manually, which proved to be time consuming. Some of the players had columns that others didn't so additional steps needed to be taken in the cleaning process to make sure that each rookie had the same statistical columns.
 
 ## Teammate Role Summary
 
