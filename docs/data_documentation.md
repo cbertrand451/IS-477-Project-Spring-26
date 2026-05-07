@@ -189,4 +189,16 @@ This made it easier to merge with the draft Year column.
 - **Rookie Data Source:** Basketball Reference player pages.
 - **Season Data Source:** Basketball Reference Chicago Bulls team season page.
 
+## Software Citations
+
+- Python Software Foundation. Python 3.11. https://www.python.org/
+- The pandas development team. pandas, version 2.3.3. Zenodo. https://doi.org/10.5281/zenodo.3509134
+- McKinney, W. (2010). Data Structures for Statistical Computing in Python. Proceedings of the 9th Python in Science Conference, 56-61. https://doi.org/10.25080/Majora-92bf1922-00a
+- Harris, C. R., Millman, K. J., van der Walt, S. J., et al. (2020). Array programming with NumPy. Nature, 585, 357-362. https://doi.org/10.1038/s41586-020-2649-2
+- Hunter, J. D. (2007). Matplotlib: A 2D graphics environment. Computing in Science & Engineering, 9(3), 90-95. https://doi.org/10.1109/MCSE.2007.55
+- Waskom, M. L. (2021). seaborn: statistical data visualization. Journal of Open Source Software, 6(60), 3021. https://doi.org/10.21105/joss.03021
+- Pedregosa, F., Varoquaux, G., Gramfort, A., et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825-2830. https://jmlr.org/papers/v12/pedregosa11a.html
+- Richardson, L. Beautiful Soup 4, version 4.13.4. https://pypi.org/project/beautifulsoup4/
+- html5lib contributors. html5lib, version 1.1. https://pypi.org/project/html5lib/
+
 ---

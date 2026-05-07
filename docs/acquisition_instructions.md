@@ -21,7 +21,7 @@ Both datasets were found on basketball-reference.com
 
 The first dataset(S) were acquired programatically. The table with all of the bulls historical draft picks was scraped using pandas read html feature. Then, using the names of the drafted players, a url was crafted for each player, and their rookie year stats were also scraped. 
 
-**IMPORTANT**: when running the acquisition script for the rookie year stats, the script may take 2-5 minutes. A manual timer had to be set in between each request. basketball-reference.com has a maximum amount of requests that can be made per minute, and if that is passed, the IP address of the user gets "jailed" for up to an hour.
+**IMPORTANT**: when running the acquisition script for the rookie year stats, the script may take 2-5 minutes. A manual timer had to be set in between each request. Sport Reference allows a maximum of 20 requests per minute, and if that is passed, the IP address of the user can get "jailed" for up to an hour. The script stays closer to 10 requests per minute to avoid that limit.
 
 The second dataset was acquired manually on basketball-reference.com, bu clicking the "Share & Export" option above the dataset we wanted, and then copy and pasted into a new csv file.
 
@@ -86,4 +86,4 @@ Terms of Use: https://www.sports-reference.com/termsofuse.html
 
 Sports Reference says they support "data democratization", meaning they allow for the use and modification of the data found on their webpages. 
 
-They do state, that they do not support aggressive scraping or botting. This is why a timer is set in betweeen all scraping actvity, so that the scripts do not overhwlem the servers and limit the use of the site for other users. 
+They state that they do not support aggressive scraping or botting. Sport Reference allows a maximum of 20 requests per minute. To stay safely below that limit and avoid getting temporarily "jailed" by the site, the rookie data acquisition script waits between requests and runs closer to 10 requests per minute. This keeps the workflow reproducible without overwhelming the servers or limiting the site for other users.
