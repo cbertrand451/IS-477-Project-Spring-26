@@ -1,0 +1,20 @@
+{
+  "title": "Chicago Bulls NBA Draft Picks vs Season Outcomes",
+  "contributors": [
+    "Colin Bertrand",
+    "Reed Haas"
+  ],
+  "description": "This project studies how Chicago Bulls draft picks and rookie statistics relate to Bulls season outcomes from 2000 to 2025.",
+  "sources": [
+    "https://www.basketball-reference.com/teams/CHI/draft.html",
+    "https://www.basketball-reference.com/teams/CHI/"
+  ],
+  "data_files": [
+    "data/raw/chicago_draft_data.csv",
+    "data/raw/bulls_data.csv",
+    "data/raw/rookie_stats_data/",
+    "data/processed/final_bulls_data.csv"
+  ],
+  "date_created": "2026-05-06",
+  "license": "Basketball Reference data are subject to Sports Reference Terms of Use: https://www.sports-reference.com/termsofuse.html"
+}
