@@ -7,7 +7,11 @@ DEFAULT_CHECKS = [
     (
         PROJECT_ROOT / "data" / "raw" / "chicago_draft_data.csv",
         PROJECT_ROOT / "data" / "raw" / "chicago_draft_data.sha256",
-    )
+    ),
+    (
+        PROJECT_ROOT / "data" / "raw" / "bulls_data.csv",
+        PROJECT_ROOT / "data" / "raw" / "bulls_data.sha256",
+    ),
 ]
 
 

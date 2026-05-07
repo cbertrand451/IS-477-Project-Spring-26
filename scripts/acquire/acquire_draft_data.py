@@ -37,8 +37,6 @@ def flatten_columns(df):
 def scrape_draft_data(url):
     df = pd.read_html(url, attrs={"id": "draft"})[0]
     df = flatten_columns(df)
-    df = df[df["Year"] != "Year"].copy()
-    df = df[df["Year"].astype(int) >= 2000]
     return df.reset_index(drop=True)
 
 
