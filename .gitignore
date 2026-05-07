@@ -1,5 +1,4 @@
 __pycache__/
-
-.pyc
-
+*.pyc
 .DS_Store
+data/raw/draft_data.csv
