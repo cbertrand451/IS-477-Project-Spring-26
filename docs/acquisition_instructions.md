@@ -15,7 +15,7 @@ This document describes the process used to acquire the two datasets for this pr
 - **URL:** https://www.basketball-reference.com/teams/CHI/
 - **Access Method:** Manual download 
 - **Format:** CSV  
-- **Stored at:** `data/raw/income/bulls_data.csv`
+- **Stored at:** data/raw/bulls_data.csv
 
 Both datasets were found on basketball-reference.com
 
@@ -40,7 +40,7 @@ Manually added the following file:
 Generated checksum file for the manually added file:
 - data/raw/bulls_data.sha256
 
-Raw data files are stored in `data/raw/` and never modified.  
+Raw data files are stored in *data/raw/* and never modified.  
 
 ---
 
